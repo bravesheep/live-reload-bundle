@@ -2,6 +2,8 @@
 A [Symfony](https://symfony.com) bundle that automatically includes a link to
 the livereload script in any html response (based on configuration).
 
+Inspired by the [KunstmaanLiveReloadBundle](https://github.com/Kunstmaan/KunstmaanLiveReloadBundle).
+
 ## Installation and configuration
 Using [Composer](https://getcomposer.org) add the bundle to your dependencies
 using the require command. This command adds the bundle only for development
