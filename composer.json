@@ -1,0 +1,23 @@
+{
+    "name": "bravesheep/live-reload-bundle",
+    "description": "Automatically include the live reload script in Symfony",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Bravesheep\\LiveReloadBundle\\": "src/"
+      }
+    },
+    "authors": [
+        {
+            "name": "Ruben Nijveld",
+            "email": "ruben@gewooniets.nl"
+        }
+    ],
+    "require": {
+      "php": ">=5.4.0",
+      "symfony/config": "^2.3|^3.0",
+      "symfony/dependency-injection": "^2.3|^3.0",
+      "symfony/http-kernel": "^2.3|^3.0",
+      "symfony/event-dispatcher": "^2.3|^3.0"
+    }
+}
