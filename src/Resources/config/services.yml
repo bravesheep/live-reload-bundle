@@ -2,7 +2,7 @@ services:
     bravesheep_live_reload.script_injector:
         class: Bravesheep\LiveReloadBundle\ScriptInjectorSubscriber
         arguments:
-          - %bravesheep_live_reload.host%
-          - %bravesheep_live_reload.port%
+          - "%bravesheep_live_reload.host%"
+          - "%bravesheep_live_reload.port%"
         tags:
           - { name: kernel.event_subscriber }
